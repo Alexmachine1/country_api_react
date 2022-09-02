@@ -202,7 +202,7 @@ img {
   .infoDiv {
     flex-direction: column;
     align-items: flex-start;
-    justify-content: center;
+    /* justify-content: center; */
   }
 
   .leftDiv1,
@@ -212,16 +212,30 @@ img {
 
   .leftDiv {
     flex-direction: column;
-    margin-left: 50px;
+    /* margin-left: 30px; */
   }
 
   .floorDiv {
     position: relative;
-    left: 0%;
+    left: 6.1%;
     margin-top: 10px;
+    gap: 10px;
   }
+
   .leftDiv2 {
-    margin-top: 30px ;
-    margin-left: 65px;
+    margin-top: 30px;
+    margin-left: 30px;
+  }
+
+  .leftDiv1 {
+    /* margin-top: 30px ; */
+    margin-left: -41px;
+
+  }
+
+  .imgDiv {
+    margin-left: 30px;
+    width: 70%;
+
   }
 }

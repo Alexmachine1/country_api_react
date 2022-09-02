@@ -29,7 +29,7 @@ const InfoPage = () => {
             <div key={country.name.common}>
               <img
                 className="imgDiv"
-                src={country.flags.svg} alt="..." />
+src={country.flags.svg} alt="..." />
             </div>
 
             <div className="leftDiv">
