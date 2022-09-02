@@ -193,8 +193,35 @@ img {
 @media screen and (max-width: 576px) {
   .countryCard {
     grid-template-columns: repeat(1, 1fr);
+
     /* row-gap: 60px;
     padding: 50px; */
 
+  }
+
+  .infoDiv {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+
+  .leftDiv1,
+  .leftDiv2 {
+    margin-right: 10px;
+  }
+
+  .leftDiv {
+    flex-direction: column;
+    margin-left: 50px;
+  }
+
+  .floorDiv {
+    position: relative;
+    left: 0%;
+    margin-top: 10px;
+  }
+  .leftDiv2 {
+    margin-top: 30px ;
+    margin-left: 65px;
   }
 }
