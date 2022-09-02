@@ -262,4 +262,7 @@ img {
   .ri-search-line {
     left: 23%;
   }
+  .floorDiv p{
+    padding:0 10px;
+  }
 }
