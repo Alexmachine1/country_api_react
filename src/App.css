@@ -259,10 +259,13 @@ img {
   .countryCard {
     padding: auto;
   }
+
   .ri-search-line {
-    left: 28%;
+    left: 40%;
   }
-  .floorDiv p{
-    padding:0 5px;
+
+  .floorDiv p {
+    font-size: small;
+    padding: 0 5px;
   }
 }
