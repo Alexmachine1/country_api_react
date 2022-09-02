@@ -257,8 +257,9 @@ img {
 
 @media screen and (max-width: 375px) {
   .countryCard {
-
     padding: auto;
-
+  }
+  .ri-search-line {
+    left: 23%;
   }
 }
