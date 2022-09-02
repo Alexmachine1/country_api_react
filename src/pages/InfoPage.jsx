@@ -28,8 +28,7 @@ const InfoPage = () => {
           <div className="infoDiv">
             <div key={country.name.common}>
               <img
-                className="imgDiv"
-src={country.flags.svg} alt="..." />
+                className="imgDiv" src={country.flags.svg} alt="..." />
             </div>
 
             <div className="leftDiv">
@@ -41,12 +40,12 @@ src={country.flags.svg} alt="..." />
                   <b> {country.name.common} </b>
                 </h4>
 
-                <p>
+                {/* <p>
                   <span style={{ fontWeight: "bold", color: "white" }}>
-                    {/* Native Name:{cou} */}
+                    Native Name:{cou}
                   </span>
                   <span style={{ color: "grey" }}> Belgie </span>
-                </p>
+                </p> */}
 
                 <p>
                   <span style={{ fontWeight: "bold", color: "white" }}>

@@ -6,8 +6,7 @@ const Navbar = () => {
     <>
   <div className='nav'>
      <Link className='btn' to='/'><h3>Where in the world?</h3> </Link>
-
-    <h6>Dark Mode</h6>
+     <h6>Dark Mode</h6>
   </div>
 
  
