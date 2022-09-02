@@ -99,7 +99,7 @@ const InfoPage = () => {
             <div className="floorDiv">
               <p>Border Countries: </p>
               <div>
-                <p style={{ backgroundColor: "#2C3844", padding: "5px 20px" }}>
+                <p className="france" style={{ backgroundColor: "#2C3844", padding: "5px 20px" }}>
                   France
                 </p>
               </div>
